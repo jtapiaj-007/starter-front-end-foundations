@@ -5,3 +5,20 @@ body {
 input {
   margin: 5px;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+@media all and (max-width: 600px) {
+  .bt-submit {
+    width: 100%;
+  }
+}

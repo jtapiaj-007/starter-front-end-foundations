@@ -13,6 +13,24 @@
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <form>
+        <div clas="form-container">
+          <div class="group">
+            <label for="name">Name:</label>
+            <input id="name"  type="text" name="name" autofocus="on" required/>
+          </div>
+          <div class="group">
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="mail" required/>
+          </div>
+          <div class="group">
+            <label for="form-message">Your message:</label>
+            <textarea id="form-message" name="message" autofocus="off" required maxlength="200"></textarea>
+          </div>
+        </div>
+        <button class ="bt-submit" type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
